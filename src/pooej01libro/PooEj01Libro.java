@@ -22,6 +22,7 @@ public class PooEj01Libro {
         
        Metodos m1 = new Metodos();
        Libro l1 = m1.nuevoMetodo(); // Esta es la forma para llamar al servicio donde se encuentra la lógica
+       m1.impresion(l1);
        // System.out.println(m1); 
         
        
